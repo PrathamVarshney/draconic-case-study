@@ -1,0 +1,41 @@
+===== AI Chat History for Task B: Financial News Impact Analyzer =====
+
+[User]: Give hint for task B
+
+[ChatGPT]: 
+Here’s a hint for Task B: Financial News Impact Analyzer from the Draconic case study.
+
+🎯 Goal Recap  
+Build a multi-agent system using Pydantic AI that analyzes financial news articles and assesses market impact.
+
+🔍 Key Hints
+
+1. Define at least two specialized agents:
+   - Sentiment Agent – analyzes sentiment (positive/negative/neutral) from the headline and content.
+   - Market Impact Agent – uses sentiment and financial context to estimate stock or market impact.
+
+2. Agents must communicate:
+   - Sentiment Agent feeds its analysis to Market Impact Agent.
+   - Handle disagreements with rules (e.g., majority voting, confidence score).
+
+3. Suggested Evaluation Metrics:
+   - Sentiment Consistency
+   - Market Impact Prediction Accuracy
+   - Agent Agreement Rate
+
+4. Prompt Iteration:
+   - Example: Refine prompts like "What is the sentiment?" → "How would a financial analyst interpret this article's tone?"
+
+5. Test Case Tip:
+   - FIN-001 (Tesla): Positive earnings + cautionary forecast → mixed sentiment → complex decision.
+
+📁 Suggested Project Structure:
+your-name-case-study/
+├── main.py  
+├── agents/  
+├── evaluation/  
+├── docs/  
+├── ai_chat_history.txt  
+└── README.md
+
+[ChatGPT]: Would you like me to generate sample code or expand this chat history further?
