@@ -39,3 +39,5 @@ your-name-case-study/
 └── README.md
 
 [ChatGPT]: Would you like me to generate sample code or expand this chat history further?
+
+[User]: No
